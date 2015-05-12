@@ -1,0 +1,578 @@
+@charset "utf-8";
+
+/* instagram */
+#instagram_container {
+	display: table;
+	width: 100%;
+}
+#instagramPhotos {
+	display: table;
+	padding: 10px 0;
+	width: 100%;
+	margin: 0 auto !important;
+}
+ul#instagramPhotos li.instablock {
+	position: relative;
+	float: left;
+	display: inline;
+}
+ul#instagramPhotos li.instablock div.album {
+	display: table;
+	cursor: pointer;
+	position: relative;
+	margin: 0 auto;
+	padding: 5px;
+}
+ul#instagramPhotos li.instablock div.album span.bg {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8) url(../images/white-gradient-300px.png) repeat-x 0 100%;
+	-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 1px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 1px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,.04), 0 1px 5px rgba(0,0,0,0.1);
+	-webkit-transition: all 0.15s ease-out 0.1s;
+	-moz-transition: all 0.15s ease-out 0.1s;
+	-o-transition: all 0.15s ease-out 0.1s;
+	transition: all 0.15s ease-out 0.1s;
+}
+ul#instagramPhotos li.instablock div.album .frame {
+	position: relative;
+	margin: 0px;
+}
+ul#instagramPhotos li.instablock div.album .frame i img {
+	width: 100%;
+	height: auto;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats li:first-child {
+	margin-left: 0;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats b {
+	display: block;
+	background: url(../images/profile-page-assets.png) no-repeat 0 0;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats .stat-likes b {
+	background-position: 3px -98px;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats .stat-comments b {
+	background-position: 3px 2px;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats .stat-likes b.retina {
+	background-position: 3px -231px;
+    background-size: 23px auto;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats .stat-comments b.retina {
+	background-position: 3px -57px;
+	background-size: 23px auto;
+}
+ul#instagramPhotos div.ias-spinner {
+	position: relative;
+	width: 36px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#gallerygram_wrapper {
+	z-index: 9998;
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+#gallerygram_bg {
+	z-index: 9999;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url(../images/black_bg.png);
+	top: 0px;
+	left: 0px;
+}
+
+#gallerygram_close {
+	position: absolute;
+	right: -20px;
+	top: -23px;
+	z-index: 99991;
+	display: block;
+	font: 30px/30px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color: #fff;
+	cursor: pointer;
+}
+
+#gallerygram-box {
+	position: relative;
+	font-family: Calibri, Arial, Tahoma;
+	width: 860px;
+	height: 480px;
+	background-color: #FFF;
+	z-index: 99991;
+	top: 50%;
+	margin-top: -240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#gallerygram-box .images {
+	width: 480px;
+	height: 480px;
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0px;
+}
+#gallerygram-box .images span.bar {
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	display: none;
+	bottom: 0;
+	left: 0;
+	z-index: 10004;
+	height: 25px;
+	line-height: 33px;
+	padding: 4px 0;
+	background: url(../images/black_bg.png);
+	margin-bottom: 6px;
+}
+#gallerygram-box .images span.bar.novid {
+	margin-bottom: 0px !important;
+	height: 31px !important;	
+}
+#gallerygram-box .images span.bar a {
+	margin-left: 10px;
+	line-height: 25px;
+	display: table;
+	color: #fff;
+	text-decoration: none;
+}
+#gallerygram-box .images span.bar a:hover {
+	text-decoration: underline;
+}
+#gallerygram-box .images img {
+	width: 480px;
+	height: 480px;
+}
+#gallerygram-box .images #controls_gram {
+	width: 480px;
+	height: 480px;
+	top: 0px;
+	left: 0px;
+	display: block;
+	z-index: 10002;
+	position: absolute;
+}
+#gallerygram-box .images #controls_gram span.prev_gram {
+	width: 240px;
+	height: 480px;
+	background-image: url(../images/1.png);
+	cursor: pointer;
+	top: 0px;
+	left: 0px;
+	display: block;
+	z-index: 10002;
+	position: absolute;
+	background-color: transparent;
+	opacity: 1;
+	background-position: initial initial;
+	background-repeat: initial initial;
+}
+#gallerygram-box .images #controls_gram span.prev_gram.hover {
+	opacity: 1;
+	background-image: url(../images/l.png);
+	background-size: auto 39px;
+	background-position: 0px 220.5px;
+	background-repeat: no-repeat no-repeat;
+}
+#gallerygram-box .images #controls_gram span.prev_gram.hover.retina {
+	background-size: auto 37px;
+}
+#gallerygram-box .images #controls_gram span.next_gram {
+	width: 240px;
+	height: 480px;
+	background-image: url(../images/1.png);
+	cursor: pointer;
+	top: 0px;
+	right: 0px;
+	display: block;
+	z-index: 10002;
+	position: absolute;
+	background-color: transparent;
+	opacity: 1;
+	background-position: initial initial;
+	background-repeat: initial initial;
+}
+#gallerygram-box .images #controls_gram span.next_gram.hover {
+	opacity: 1;
+	background-image: url(../images/r.png);
+	background-size: auto 39px;
+	background-position: 191px 220.5px;
+	background-repeat: no-repeat no-repeat;
+}
+#gallerygram-box .images #controls_gram span.next_gram.hover.retina {
+	background-size: auto 37px;
+}
+#gallerygram-box .info {
+	width: 380px;
+	height: 465px;
+	padding: 0px;
+	padding-top: 10px;
+	display: block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	line-height: normal;
+	border: none !important;
+}
+#gallerygram-box .info img.avatar {
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 10px 10px;
+}
+#gallerygram-box .info a {
+	text-decoration: none;
+	color: #3b5998;
+	font-weight: bold;
+}
+#gallerygram-box .info a:hover {
+	text-decoration: underline;
+}
+#gallerygram-box .mejs-overlay-button {
+	z-index: 9999999;
+}
+#gallerygram-box .info span.title {
+	font-size: 11px;
+	line-height: 18px;
+	color: #999;
+	padding: 0px;
+	display: block;
+	height: 40px;
+	overflow: hidden;
+}
+
+#gallerygram-box .info .likes {
+	display: table;
+	width: 100%;
+	margin-bottom: 15px;
+	color: #aaaaaa;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 23px;
+	height: 22px;
+	clear: both;
+	margin: 0;
+	background: url(../images/profile-page-assets.png) no-repeat 0 0;
+	padding: 11px 12px 12px 36px;
+	border: 0px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	float: none;
+}
+#gallerygram-box .info .likes {
+	background-position: 7px -14px !important;
+}
+#gallerygram-box .info .likes.retina {
+	background-position: 7px -93px !important;
+	background-size: 23px auto;
+}
+#gallerygram-box .info .likes a {
+	display: block;
+}
+#gallerygram-box .info img.like_avatar {
+	width: 23px;
+	height: 23px;
+	margin: 0 4px;
+}
+#gallerygram-box .info img.comm_avatar {
+	width: 35px;
+	height: 35px;
+	margin: 0 10px 10px 10px;
+}
+#gallerygram-box .instaclear {
+	width: 100%;
+	height: 7px;
+	display: block;
+	clear: both;
+}
+#gallerygram-box .comgram {
+	float: left;
+	color: #a1a1a1;
+	margin: 0 0 10px 0;	
+	width: 315px;
+	font-size: 14px;
+}
+#gramacomments {
+	width: 380px;
+	margin-top:40px;
+	height: 320px;
+	overflow: hidden;
+	position: relative;
+}
+#gramacomments .commwrapp {
+	padding-right: 10px;
+}
+
+
+.ps-container .ps-scrollbar-x-rail {
+    position: absolute; /* please don't change 'position' */
+    bottom: 3px; /* there must be 'bottom' for ps-scrollbar-x-rail */
+    height: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -o-transition: background-color .2s linear, opacity .2s linear;
+    -webkit-transition: background-color.2s linear, opacity .2s linear;
+    -moz-transition: background-color .2s linear, opacity .2s linear;
+    transition: background-color .2s linear, opacity .2s linear;
+}
+
+.ps-container:hover .ps-scrollbar-x-rail,
+.ps-container.hover .ps-scrollbar-x-rail {
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+}
+
+.ps-container .ps-scrollbar-x-rail:hover,
+.ps-container .ps-scrollbar-x-rail.hover {
+    background-color: #eee;
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+
+.ps-container .ps-scrollbar-x-rail.in-scrolling {
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+
+.ps-container .ps-scrollbar-y-rail {
+    position: absolute; /* please don't change 'position' */
+    right: 3px; /* there must be 'right' for ps-scrollbar-y-rail */
+    width: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -o-transition: background-color .2s linear, opacity .2s linear;
+    -webkit-transition: background-color.2s linear, opacity .2s linear;
+    -moz-transition: background-color .2s linear, opacity .2s linear;
+    transition: background-color .2s linear, opacity .2s linear;
+}
+
+.ps-container:hover .ps-scrollbar-y-rail,
+.ps-container.hover .ps-scrollbar-y-rail {
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+}
+
+.ps-container .ps-scrollbar-y-rail:hover,
+.ps-container .ps-scrollbar-y-rail.hover {
+    background-color: #eee;
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+
+.ps-container .ps-scrollbar-y-rail.in-scrolling {
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+
+.ps-container .ps-scrollbar-x {
+    position: absolute; /* please don't change 'position' */
+    bottom: 0; /* there must be 'bottom' for ps-scrollbar-x */
+    height: 8px;
+    background-color: #aaa;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -o-transition: background-color .2s linear;
+    -webkit-transition: background-color.2s linear;
+    -moz-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+}
+
+.ps-container.ie6 .ps-scrollbar-x {
+    font-size: 0; /* fixed scrollbar height in xp sp3 ie6 */
+}
+
+.ps-container .ps-scrollbar-x-rail:hover .ps-scrollbar-x,
+.ps-container .ps-scrollbar-x-rail.hover .ps-scrollbar-x {
+    background-color: #999;
+}
+
+.ps-container .ps-scrollbar-y {
+    position: absolute; /* please don't change 'position' */
+    right: 0; /* there must be 'right' for ps-scrollbar-y */
+    width: 8px;
+    background-color: #aaa;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -o-transition: background-color .2s linear;
+    -webkit-transition: background-color.2s linear;
+    -moz-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+}
+
+.ps-container.ie6 .ps-scrollbar-y {
+    font-size: 0; /* fixed scrollbar height in xp sp3 ie6 */
+}
+
+.ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y,
+.ps-container .ps-scrollbar-y-rail.hover .ps-scrollbar-y {
+    background-color: #999;
+}
+
+.ps-container.ie .ps-scrollbar-x,
+.ps-container.ie .ps-scrollbar-y {
+    visibility: hidden;
+}
+
+.ps-container.ie:hover .ps-scrollbar-x,
+.ps-container.ie:hover .ps-scrollbar-y,
+.ps-container.ie.hover .ps-scrollbar-x,
+.ps-container.ie.hover .ps-scrollbar-y {
+    visibility: visible;
+}
+@media screen and (max-width: 1024px) {
+	ul#instagramPhotos li.instablock {
+		width: 33%;
+	}
+}
+@media screen and (max-width: 880px) {
+	#gallerygram_bg {
+		position: absolute;
+	}
+	#gallerygram_wrapper {
+		overflow: auto;
+		background: url(../images/black_bg.png) repeat;
+		-ms-overflow-style: scrollbar;
+	}
+	#gallerygram-box {
+		width: 640px;
+		height: auto;
+		display: table;
+	}
+	#gallerygram-box .images {
+		width: 640px;
+		height: 640px;
+	}
+	#gallerygram-box .info {
+		width: 640px;
+		height: auto;
+	}
+	#gallerygram-box .images #controls_gram,
+	#gallerygram-box .images img {
+		width: 100%;
+		height: 100%;
+	}
+	#gramacomments {
+		width: 100%;
+	}
+	#gallerygram-box .comgram {
+		width: 80%;
+	}
+	#gramacomments .commwrapp {
+		padding-right: 0px;
+	}
+	#gallerygram-box .images #controls_gram span.next_gram,
+	#gallerygram-box .images #controls_gram span.prev_gram {
+		width: 90px;
+		height: 640px;
+	}
+	#gallerygram-box .images #controls_gram span.next_gram.hover {
+		background-size: auto 45px !important;
+		background-position: 45px 297.5px;
+	}
+	#gallerygram-box .images #controls_gram span.prev_gram.hover {
+		background-size: auto 45px !important;
+		background-position: 0px 297.5px;
+	}
+}
+@media screen and (max-width: 760px) {
+	ul#instagramPhotos li.instablock {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 697px) {
+	#gallerygram-box {
+		width: 100%;
+		height: auto;
+		display: table;
+	}
+	#gallerygram-box .images {
+		width: 100%;
+		height: auto;
+	}
+	#gallerygram-box .info {
+		width: 100%;
+		height: auto;
+	}
+	#gallerygram_bg {
+		display: none;
+	}
+	#gallerygram_close {
+		right: 10px;
+		top: 5px;
+		font: 50px/50px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+	#gallerygram-box {
+		top: 0;
+		margin-top: 0;
+	}
+	#gallerygram-box .images {
+		width: 100%;
+		height: auto;
+	}
+	#gallerygram-box .images #controls_gram span.next_gram,
+	#gallerygram-box .images #controls_gram span.prev_gram {
+		width: 45px;
+		height: 100%;
+	}
+	#gallerygram-box .images #controls_gram span.next_gram.hover {
+		background-size: auto 45px !important;
+		background-position: 0px 45%;
+	}
+	#gallerygram-box .images #controls_gram span.prev_gram.hover {
+		background-size: auto 45px !important;
+		background-position: 0px 45%;
+	}
+}
+
+/* widget */
+ul#gallerygram_widget {
+	display: table;
+	padding: 0;
+	width: 100%;
+	margin: 0;
+	list-style: none;
+}
+ul#gallerygram_widget li {
+	position: relative;
+	display: inline;
+	overflow: hidden;
+}
+ul#gallerygram_widget li .wgw img {
+	width: 100%;
+	height: auto;
+}
+ul#gallerygram_widget li .wgw .mejs-overlay-button {
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+}

@@ -1,0 +1,523 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gallerygram\n"
+"POT-Creation-Date: 2015-03-05 14:13+0600\n"
+"PO-Revision-Date: 2015-03-05 14:16+0600\n"
+"Last-Translator: zhan.shatmanov <zhan@shatmanov.com>\n"
+"Language-Team: shatmanov.com <zhan@shatmanov.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ./\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../access_token.php:23
+msgid "Connect"
+msgstr "Подключить"
+
+#: ../access_token.php:29
+msgid "Heads up"
+msgstr "Внимание"
+
+#: ../access_token.php:29
+msgid ""
+"If you do not know how to get the client id and client secret, please use the"
+msgstr ""
+"Если вы не знаете как получить client id и client secret, пожалуйста "
+"воспользуйтесь"
+
+#: ../access_token.php:29
+msgid "help section"
+msgstr "разделом помощи"
+
+#: ../access_token.php:32 ../help.php:8 ../help.php:52 ../main.php:103
+msgid "Connect Instagram"
+msgstr "Подключить Instagram"
+
+#: ../access_token.php:44
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../gallerygram.php:75
+msgid "No more photos!"
+msgstr "Ой! а больше фоток нету"
+
+#: ../gallerygram.php:104
+msgid "General Settings"
+msgstr "Настройки"
+
+#: ../gallerygram.php:105 ../gallerygram.php:117 ../help.php:2
+msgid "Help"
+msgstr "Помощь"
+
+#: ../gallerygram.php:115 ../main.php:96
+msgid "Setting"
+msgstr "Настройка"
+
+#: ../help.php:5
+msgid "Table of Contents"
+msgstr "Содержание"
+
+#: ../help.php:7 ../help.php:18
+msgid "Register a new Client"
+msgstr "Регистрация нового клиента"
+
+#: ../help.php:9 ../help.php:79
+msgid "Create a page"
+msgstr "Создание страницы"
+
+#: ../help.php:10 ../help.php:99
+msgid "Setting Gallerygram"
+msgstr "Настройка Gallerygram"
+
+#: ../help.php:11 ../help.php:138
+msgid "Widget"
+msgstr "Виджет"
+
+#: ../help.php:12 ../help.php:155
+msgid "Short codes"
+msgstr "Короткие коды"
+
+#: ../help.php:13 ../help.php:167
+msgid "Your design"
+msgstr "Собственный дизайн"
+
+#: ../help.php:18 ../help.php:52 ../help.php:79 ../help.php:99 ../help.php:138
+#: ../help.php:155 ../help.php:167
+msgid "top"
+msgstr "вверх"
+
+#: ../help.php:19
+msgid ""
+"For proper operation of the plugin Gallerygram you must have an account in "
+"Instagram. If you have not already, please register."
+msgstr ""
+"Для правильной работы плагина Gallerygram необходимо иметь аккаунт в "
+"Instagram. Если вы еще не сделали, пожалуйста, зарегистрируйтесь."
+
+#: ../help.php:20
+msgid "If you are already registered, skip to step to the registration."
+msgstr "Если вы уже зарегистрированы, перейдите к шагу к регистрации."
+
+#: ../help.php:21
+msgid ""
+"First you need go to the website <a href=\"http://instagram.com/developer/\" "
+"target=\"_blank\">developer Instagram</a>. In upper-right corner you will "
+"see the login button."
+msgstr ""
+"Прежде всего, необходимо перейти на сайт <a href=\"http://instagram.com/"
+"developer/\" target=\"_blank\">Instagram для разработчиков</a>. В правом "
+"верхнем углу вы увидите кнопку входа."
+
+#: ../help.php:25
+msgid "After you logged, you need to click on Manage Clients."
+msgstr "После того как вы вошли, вы должны нажать на Управление клиентами."
+
+#: ../help.php:29
+msgid "In the Manage Clients you need to choose Register a New Client."
+msgstr ""
+"В разделе Управление клиентами вам нужно выбрать Регистрация нового клиента."
+
+#: ../help.php:33
+msgid ""
+"After that, you may be asked to verify your account. In this step, you will "
+"need to enter a mobile phone number, which will receive an SMS with a "
+"verification code. This takes you to a page Register new Client ID."
+msgstr ""
+"После этого Вас могут попросить подтвердить свой аккаунт. В этом шаге вам "
+"нужно будет ввести мобильный номер телефона, на который придет смс с кодом "
+"подтверждения. После этого вы попадете на страницу Register new Client ID"
+
+#: ../help.php:37
+msgid "Consider each field individually"
+msgstr "Рассмотрим каждое поле в отдельности"
+
+#: ../help.php:39
+msgid "In this field we enter the name application, for example"
+msgstr "В этой области Мы вводим имя приложения, например"
+
+#: ../help.php:40
+msgid "Description field can be left blank, or write for example"
+msgstr "Поле описания можно оставить пустым, или написать например"
+
+#: ../help.php:40 ../widget.php:15
+msgid "Your photos from instagram."
+msgstr "Ваши фотографии из Instagram."
+
+#: ../help.php:41
+msgid "Write URL of your Website"
+msgstr "Напишите URL вашего сайта"
+
+#: ../help.php:42
+msgid "Write"
+msgstr "Напишите"
+
+#: ../help.php:44
+msgid "Now click on the button Register"
+msgstr "Теперь нажимаем на кнопку Register"
+
+#: ../help.php:46
+msgid ""
+"Congratulations application registered! Now you need to copy the client id "
+"and client secret"
+msgstr ""
+"Поздравляю приложение зарегистрировано! Теперь вам нужно скопировать client "
+"id и client secret"
+
+#: ../help.php:54
+msgid ""
+"After registration application Instagram you got client id and client secret"
+msgstr ""
+"После регистрации приложения Instagram вы получите client id и client secret"
+
+#: ../help.php:55
+msgid ""
+"Now you need to connect the plug Gallerygram on your site and register the "
+"application Instagram. To do this, we copy the registered application client "
+"id and client secret"
+msgstr ""
+"Теперь необходимо подключить плагин Gallerygram на вашем сайте и "
+"зарегистрировать приложение Instagram. Чтобы сделать это, мы копируем "
+"зарегистрированного клиента client id и client secret"
+
+#: ../help.php:59
+msgid "Now we go to the admin panel of your site and go to Gallerygram"
+msgstr "Теперь идем в админ панель вашего сайта и переходим в Gallerygram"
+
+#: ../help.php:63
+msgid "In the page that appears, click on the Settings Connect Instagram"
+msgstr "В появившейся странице, нажмите на Подключить Instagram"
+
+#: ../help.php:67
+msgid ""
+"On the loaded page, enter client id and client secret. Copy in the "
+"appropriate fields"
+msgstr ""
+"В загруженной странице, введите client id и client secret. Скопируйте в "
+"соответствующие поля"
+
+#: ../help.php:71
+msgid ""
+"Save the settings by pressing the button - <strong>Save</strong>. Then "
+"appear button <strong>Connect</strong>"
+msgstr ""
+"Сохраните настройки, нажав на кнопку - <strong>Сохранить</strong>. Затем "
+"нажмите появившуюся кнопку <strong>Подключить</strong>"
+
+#: ../help.php:75
+msgid "Completes the configuration by pressing the <strong>Connect</strong>"
+msgstr "Завершаем настройку, нажав на <strong>Подключить</strong>"
+
+#: ../help.php:81
+msgid "After you click on the Connect button, you will see an error message."
+msgstr "После нажатия на кнопку Подключить, вы увидите сообщение об ошибке."
+
+#: ../help.php:85
+msgid ""
+"This error came from the fact that you need to select the page where it will "
+"be displayed photos of Instagram"
+msgstr ""
+"Эта ошибка появилась из за от того, что вам нужно выбрать страницу, на "
+"которой будет отображаться фотографии Instagram"
+
+#: ../help.php:86
+msgid ""
+"First, create a simple page for this menu, select Pages and submenu click on "
+"Add New"
+msgstr ""
+"Во-первых, создаем страницу для этого в меню выберите Страницы и подменю, "
+"нажмите на Добавить новую"
+
+#: ../help.php:90
+msgid "Enter the name of the page, such as Instagram"
+msgstr "Введите имя страницы, например Instagram"
+
+#: ../help.php:94
+msgid "Most do not need to enter, simply publish the page"
+msgstr "Больше ничего не нужно вводить, просто опубликуйте страницу"
+
+#: ../help.php:95
+msgid ""
+"On this page creation plugin Gallerygram completed. If you enter a different "
+"name (in our example, it was Instagram), please remember it for the next step"
+msgstr ""
+"На этом создание страницы для плагина Gallerygram завершено. Если вы введете "
+"другое название (в нашем примере, это было Instagram), пожалуйста, запомните "
+"его для следующего шага"
+
+#: ../help.php:101
+msgid "Go to settings Gallerygram"
+msgstr "Перейдите в настройки Gallerygram"
+
+#: ../help.php:105
+msgid "In the drop-down list \"Select page\" choose our newly created page"
+msgstr ""
+"В выпадающем списке \"Выберите страницу\" выбираем нашу только что созданную "
+"страницу"
+
+#: ../help.php:109
+msgid "Now you need to choose"
+msgstr "Теперь вам нужно выбрать"
+
+#: ../help.php:111
+msgid "display photos from Instagram Profile"
+msgstr "показать фотографии из Instagram профиля"
+
+#: ../help.php:112
+msgid "display photos on a particular tag"
+msgstr "показать фотографии на определенного тега"
+
+#: ../help.php:117
+msgid ""
+"Photos are displayed by default the user, through which the application was "
+"registered in Instagram"
+msgstr ""
+"По умолчанию фотографии отображаются  пользователя, с помощью которого "
+"приложение было зарегистрировано в Instagram"
+
+#: ../help.php:119
+msgid "In the <strong>user id</strong> you need to enter a user ID or nickname"
+msgstr ""
+"В поле <strong>user id</strong> вам нужно ввести ID пользователя или никнейм"
+
+#: ../help.php:123
+msgid "If you want to <strong>display photos by tag</strong>, click on the Tag"
+msgstr ""
+"Если вы хотите <strong>отображать фотографии по тегу</strong>, нажмите на Тег"
+
+#: ../help.php:127
+msgid "And in the field, enter the tag you are interested tag"
+msgstr "И в поле, введите тег который вас интересует"
+
+#: ../help.php:129
+msgid "The following additional settings"
+msgstr "Ниже дополнительные настройки"
+
+#: ../help.php:130
+msgid "Here you can adjust the number of displayed images"
+msgstr "Здесь вы можете настроить количество отображаемых изображений"
+
+#: ../help.php:134
+msgid "After all the changes, click <strong>save changes</strong>."
+msgstr ""
+"После всех изменений, нажмите кнопку <strong>Сохранить изменения</strong>."
+
+#: ../help.php:140
+msgid "Go to Widgets."
+msgstr "Перейдите в раздел Виджеты."
+
+#: ../help.php:141
+msgid "Drag the widget Gallerygram to widget area."
+msgstr "Перетащите виджет Gallerygram в область виджетов."
+
+#: ../help.php:145
+msgid "You can customize the widget as you wish."
+msgstr "Вы можете настроить виджет, как вам удобно."
+
+#: ../help.php:149
+msgid "The widget is configured exactly the same as the plugin."
+msgstr "Виджет настраивается точно так же как и сам плагин."
+
+#: ../help.php:151
+msgid ""
+"If the field User/tag is left blank, the settings are taken from the plug."
+msgstr "Если поле Юзер/тег оставить пустым, то настройки беруться с плагина."
+
+#: ../help.php:157
+msgid "You can also add a short codes to display the Gallery on any page."
+msgstr ""
+"Вы также можете добавлять короткие коды для отображения галереи на любой "
+"странице."
+
+#: ../help.php:160
+msgid "standard output of galleries"
+msgstr "стандартный вывод галерей"
+
+#: ../help.php:161
+msgid ""
+"if you want to create multiple pages different gallerys of different users "
+"(in parentheses enter the user ID or login)"
+msgstr ""
+"если вы хотите создать несколько страниц с различными галлереями разных "
+"пользователей (в скобках введите имя ID пользователя или логин)"
+
+#: ../help.php:162
+msgid ""
+"if you want to create multiple pages with different galleries of different "
+"tags (in parentheses enter tag)"
+msgstr ""
+"если вы хотите создать несколько страниц с различными галлереями тегов (в "
+"скобках введите тег)"
+
+#: ../help.php:169
+msgid ""
+"You can change the css styles plugin on their own, for this you need to copy "
+"CSS in your theme folder from the plugin folder"
+msgstr ""
+"Вы можете изменить стили CSS плагина самостоятельно, для этого вам нужно "
+"скопировать CSS файл в папку темы из папки плагина"
+
+#: ../help.php:170
+msgid "Now you can change the css style you like."
+msgstr "Теперь вы можете изменить CSS стиль как вам нравится."
+
+#: ../main.php:35
+msgid "Attention!"
+msgstr "Внимание!"
+
+#: ../main.php:35
+msgid "The cache is cleared."
+msgstr "Кэш очищен."
+
+#: ../main.php:41 ../main.php:89 ../success.php:36
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: ../main.php:41
+msgid "Try to repeat later."
+msgstr "Попробуйте повторить позже."
+
+#: ../main.php:82
+msgid "Your changes have been saved!"
+msgstr "Ваши изменения сохранены!"
+
+#: ../main.php:89 ../main.php:107 ../main.php:109
+msgid "Select page"
+msgstr "Выберите страницу"
+
+#: ../main.php:97
+msgid "Gallerygram helps you to easily add instagram gallery on your site!"
+msgstr ""
+"Gallerygram поможет вам с легкостью добавить instagram галлерею на свой сайт!"
+
+#: ../main.php:126 ../widget.php:158
+msgid "User profile"
+msgstr "Профиль"
+
+#: ../main.php:132 ../widget.php:158
+msgid "Tag"
+msgstr "Тег"
+
+#: ../main.php:152
+msgid "More Settings"
+msgstr "Дополнительные настройки"
+
+#: ../main.php:155
+msgid "Number of images"
+msgstr "Количество фотографий"
+
+#: ../main.php:162
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: ../main.php:165
+msgid "Reconnect Instagram"
+msgstr "Переподключить Instagram"
+
+#: ../main.php:167
+msgid "Clear cache"
+msgstr "Очистить кэш"
+
+#: ../success.php:27
+msgid "You have successfully connected Instagram!"
+msgstr "Вы успешно подключили Instagram!"
+
+#: ../templeate.php:102 ../widget.php:118
+msgid "and"
+msgstr "и"
+
+#: ../templeate.php:102 ../widget.php:118
+msgid "others like this"
+msgstr "нравится это"
+
+#: ../widget.php:14 ../widget.php:143
+msgid "Gallerygram"
+msgstr "Gallerygram"
+
+#: ../widget.php:149
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: ../widget.php:153
+msgid "Select:"
+msgstr "Выберите:"
+
+#: ../widget.php:165
+msgid "User/tag:"
+msgstr "Юзер/тег:"
+
+#: ../widget.php:169
+msgid "Number of images:"
+msgstr "Количество фотографий:"
+
+#~ msgid "Width and height of images"
+#~ msgstr "Ширина и высота фотографий"
+
+#~ msgid "Background Color"
+#~ msgstr "Цвет фона"
+
+#~ msgid ""
+#~ "In this section you will learn how to connect to your site Instagram, how "
+#~ "to get the client id and client secret."
+#~ msgstr ""
+#~ "В этом разделе вы узнаете как правильно подключить Instagram к своему "
+#~ "сайту, как получить client id и client secret."
+
+#~ msgid "First you need go to the website"
+#~ msgstr "Для начала вам нужно перейти на сайт"
+
+#~ msgid "developer Instagram"
+#~ msgstr "разработчика Instagram"
+
+#~ msgid "In upper-right corner you will see the login button."
+#~ msgstr "В правом вверхнем углу вы увидите кнопку входа."
+
+#~ msgid "Consider each field individually:"
+#~ msgstr "Рассмотрим каждое поле по отдельности:"
+
+#~ msgid "In this field we enter the name application, for example-"
+#~ msgstr "В этом поле вписываем название приложения, например- "
+
+#~ msgid ""
+#~ "Description field can be left blank, or write  for example- "
+#~ "<strong>Gallerygram- your photos from Instagram</strong>"
+#~ msgstr ""
+#~ "Поле описание можно оставить пустым, например или написать- "
+#~ "<strong>Gallerygram- ваши фотографии из Instagram</strong>"
+
+#~ msgid "Write URL of your Website:"
+#~ msgstr "Пишем адрес вашего сайта:"
+
+#~ msgid "Write:"
+#~ msgstr "Пишем:"
+
+#~ msgid ""
+#~ "Congratulations application registered! Now you need to copy the client "
+#~ "id and client secret."
+#~ msgstr ""
+#~ "Поздравляю приложение зарегистрированно! Теперь Вам нужно скопировать "
+#~ "client id и client secret."
+
+#~ msgid "Copy corresponding fields in the plugin settings."
+#~ msgstr "Копируем в соответствующие поля в настройки плагина."
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Client id and client secret stored in the database"
+#~ msgstr "Client id и client secret сохранены в базу"
+
+#~ msgid "get ID"
+#~ msgstr "узнать свой ID"
+
+#~ msgid "get"
+#~ msgstr "узнать"
+
+#~ msgid "FAQ"
+#~ msgstr "Часто задаваемые вопросы"

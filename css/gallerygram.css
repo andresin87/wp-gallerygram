@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* instagram */
+#instagramPhotos {
+	display: table;
+	padding: 10px 0;
+	width: 100%;
+	margin: 0 auto !important;
+}
+ul#instagramPhotos li.instablock {
+	width: 25%;
+	margin: 0;
+	padding: 7px 10px 15px 10px;
+}
+ul#instagramPhotos li.instablock div.album {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+ul#instagramPhotos li.instablock div.album:hover {
+	-webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.5),0 3px 25px 0 rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.5),0 3px 25px 0 rgba(0,0,0,0.4);
+	box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.5),0 3px 25px 0 rgba(0,0,0,0.4);
+}
+ul#instagramPhotos li.instablock div.album span.title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #777;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+ul#instagramPhotos li.instablock div.album .photo-stats {
+	font-size: 13px;
+	color: #999;
+	margin: 0 auto;
+	display: table;
+	position: relative;
+	padding: 4px 0px 0px 0px;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats li {
+	display: inline-block;
+	margin: 0 0 0 8px;
+	padding:0 !important;
+}
+ul#instagramPhotos li.instablock div.album .photo-stats b {
+	padding-left: 20px;
+	height: 19px;
+}
+
+
+/* widget */
+ul#gallerygram_widget li {
+	width: 33%;
+	float: left;
+	margin: 0;
+}
+ul#gallerygram_widget li .wgw {
+	margin: 2px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	cursor: pointer;
+	
+	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	-ms-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+}
+ul#gallerygram_widget li:hover .wgw {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
